@@ -9,4 +9,15 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Raleway", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5em;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(38, 38, 38, 0.1))),
+    url("../../public/images/background_1920.jpg");
+}
+
+ul {
+  margin: 0;
 }

@@ -1,0 +1,14 @@
+.ContentBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    padding: 25px 15px;
+    background-color: $bg-color-content;
+    border: 2px solid $border-color;
+    border-radius: $border-radius;
+    box-shadow: $border-box-shadow;
+
+    &__header {
+        align-self: center;
+    }
+}

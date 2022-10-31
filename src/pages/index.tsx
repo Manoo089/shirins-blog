@@ -1,5 +1,7 @@
 import Head from "next/head";
-import Test from "../components/Test/Test";
+import Container from "../components/Container/Container";
+import ContentBox from "../components/ContentBox/ContentBox";
+import Navigation from "../components/Navbar/Navigation";
 
 export default function Home() {
   return (
@@ -10,8 +12,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header>
+        <Navigation />
+      </header>
+
       <main>
-        <Test />
+        <Container>
+          <ContentBox />
+        </Container>
       </main>
 
       <footer></footer>
