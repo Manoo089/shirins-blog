@@ -1,0 +1,11 @@
+.NavigationItems {
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  &__items {
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+  }
+}

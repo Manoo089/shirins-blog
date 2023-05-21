@@ -1,0 +1,10 @@
+.NavigationItem {
+  color: $font-color-navigation;
+  list-style-type: none;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $bg-color-base;
+    cursor: pointer;
+  }
+}

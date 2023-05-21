@@ -1,8 +1,10 @@
-import React, { PropsWithChildren } from "react";
+import React from "react";
 
-type ContainerTypes = PropsWithChildren<{}>;
+export interface Props {
+  children: React.ReactNode;
+}
 
-const Container = ({ children }: ContainerTypes) => {
+const Container = ({ children }: Props) => {
   return <div className="Container">{children}</div>;
 };
 
